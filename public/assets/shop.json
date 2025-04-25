@@ -1,0 +1,183 @@
+[
+    {
+      "id": 21,
+      "title": "Artist Sketchbook with Graphite Pencils",
+      "price": 109.95,
+      "description": "Professional sketchbook with thick, textured pages and a set of premium graphite pencils for detailed drawings.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1548213238-0da7521bd6e0",
+      "rating": { "rate": 4.5, "count": 120 }
+    },
+    {
+      "id": 22,
+      "title": "Professional Artist Markers Set",
+      "price": 22.3,
+      "description": "Vibrant alcohol-based markers in a sturdy case, perfect for illustrations and graphic design work.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262",
+      "rating": { "rate": 4.1, "count": 259 }
+    },
+    {
+      "id": 23,
+      "title": "Premium Watercolor Painting Set",
+      "price": 55.99,
+      "description": "Complete watercolor kit with rich pigments and high-quality brushes for beautiful fluid artwork.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg",
+      "rating": { "rate": 4.7, "count": 500 }
+    },
+    {
+      "id": 24,
+      "title": "Acrylic Paint Tubes & Palette",
+      "price": 15.99,
+      "description": "Set of vibrant acrylic paints with mixing palette, ideal for both beginners and professional artists.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg",
+      "rating": { "rate": 4.2, "count": 430 }
+    },
+    {
+      "id": 25,
+      "title": "Luxury Leather Journal & Pen Set",
+      "price": 695,
+      "description": "Handcrafted leather journal with fountain pen, perfect for writers and journal enthusiasts.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1518134346374-184f9d21cea2",
+      "rating": { "rate": 4.6, "count": 400 }
+    },
+    {
+      "id": 26,
+      "title": "Desk Organizer with Sticky Notes",
+      "price": 168,
+      "description": "Modern desk organizer with colorful sticky notes, pens and clips to keep your workspace tidy.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/4792729/pexels-photo-4792729.jpeg",
+      "rating": { "rate": 4.4, "count": 320 }
+    },
+    {
+      "id": 27,
+      "title": "Calligraphy Pen & Ink Bottles",
+      "price": 89.99,
+      "description": "Traditional calligraphy set with nib pens and ink bottles for elegant handwriting.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/2138126/pexels-photo-2138126.jpeg",
+      "rating": { "rate": 4.3, "count": 150 }
+    },
+    {
+      "id": 28,
+      "title": "Vibrant Gel Pen Collection",
+      "price": 19.99,
+      "description": "40 colorful gel pens in various shades for creative writing and artistic projects.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e",
+      "rating": { "rate": 4.8, "count": 210 }
+    },
+    {
+      "id": 29,
+      "title": "Professional Drawing Pencil Set",
+      "price": 13.49,
+      "description": "Complete graphite pencil set ranging from 6B to 6H for all sketching needs.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5",
+      "rating": { "rate": 4.6, "count": 390 }
+    },
+    {
+      "id": 30,
+      "title": "Decorative Washi Tape Collection",
+      "price": 24.5,
+      "description": "Assorted patterned washi tapes for journaling, scrapbooking and creative projects.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd",
+      "rating": { "rate": 4.4, "count": 310 }
+    },
+    {
+      "id": 31,
+      "title": "Mini Canvas Painting Set",
+      "price": 12.0,
+      "description": "Set of 5 mini canvases with wooden easels for small artworks and crafts.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg",
+      "rating": { "rate": 4.2, "count": 290 }
+    },
+    {
+      "id": 32,
+      "title": "Artistic Notebook Trio",
+      "price": 18.25,
+      "description": "Three beautiful notebooks with artistic covers, perfect for writing and sketching.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1518655048521-f130df041f66",
+      "rating": { "rate": 4.3, "count": 205 }
+    },
+    {
+      "id": 33,
+      "title": "Portable Artist Brush Roll",
+      "price": 27.75,
+      "description": "Canvas roll case to organize and protect your brushes and art tools while traveling.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg",
+      "rating": { "rate": 4.6, "count": 260 }
+    },
+    {
+      "id": 34,
+      "title": "Soft Pastel Drawing Set",
+      "price": 35.6,
+      "description": "36 high-quality soft pastels for creating vibrant, blendable artwork.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg",
+      "rating": { "rate": 4.5, "count": 330 }
+    },
+    {
+      "id": 35,
+      "title": "Creative Art Stencil Kit",
+      "price": 16.9,
+      "description": "Collection of reusable stencils with various patterns for art and craft projects.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg",
+      "rating": { "rate": 4.1, "count": 175 }
+    },
+    {
+      "id": 36,
+      "title": "LED Art Tracing Light Pad",
+      "price": 42.99,
+      "description": "Ultra-thin light board perfect for tracing designs, calligraphy and artwork.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+      "rating": { "rate": 4.9, "count": 120 }
+    },
+    {
+      "id": 37,
+      "title": "Planner Sticker Collection",
+      "price": 9.89,
+      "description": "500+ decorative stickers for planners, journals and creative projects.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5",
+      "rating": { "rate": 4.7, "count": 510 }
+    },
+    {
+      "id": 38,
+      "title": "Technical Drawing Pen Set",
+      "price": 14.59,
+      "description": "12 fine liner pens with archival ink for precise technical drawings and illustrations.",
+      "category": "art & stationery",
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262",
+      "rating": { "rate": 4.8, "count": 280 }
+    },
+    {
+      "id": 39,
+      "title": "Magnetic Dry Erase Board",
+      "price": 39.95,
+      "description": "Whiteboard with markers and magnets for notes, planning and brainstorming.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg",
+      "rating": { "rate": 4.4, "count": 198 }
+    },
+    {
+      "id": 40,
+      "title": "Compact Glue Gun Kit",
+      "price": 23.45,
+      "description": "Mini hot glue gun with 30 glue sticks for various craft and DIY projects.",
+      "category": "art & stationery",
+      "image": "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg",
+      "rating": { "rate": 4.5, "count": 360 }
+    }
+  ]
+  
