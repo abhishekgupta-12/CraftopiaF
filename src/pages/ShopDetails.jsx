@@ -19,7 +19,9 @@ const ShopDetails = () => {
       const { data } = await axios("/assets/shop.json"); // Assuming this path
       const product = data.find((item) => item.id === parseInt(id)); // Find the product by ID
       if (product) {
-        setSingleProduct(product); // Set the product if found
+        setSingleProduct(product); 
+        console.log(setSingleProduct)// Set the product if found
+ 
       } else {
         setError("Product not found"); // Handle case where product isn't found
       }
@@ -39,7 +41,7 @@ const ShopDetails = () => {
 
   if (loading) return <div>Loading...</div>; // Display loading text
   if (error) return <div>{error}</div>; // Display error message if any
-
+    console.log("product is not here",singleProduct); // Log the product data for debugging
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center w-full min-h-screen">

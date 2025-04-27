@@ -5,45 +5,53 @@ import { useAppStore } from "../../store/appStore";
 const ProductCard = ({ item }) => {
   const { addCart } = useAppStore();
   const navigate = useNavigate();
+
   const productName = (name) => {
     if (name.length > 20) {
       return name.substring(0, 20) + "...";
     }
     return name;
   };
-  console.log(item.image)
+
   return (
-    <div className="flex items-center bg-white relative flex-col justify-between p-[10px] shadow-md sm:shadow-new rounded-[4px]">
-      <div className="h-[150px] sm:h-[200px]">
-      <img
-  src={item.image}
-  alt={item.title}
-  className="w-full h-48 object-cover rounded-lg shadow"
-/>
-        
+    <div className="flex items-center bg-white relative flex-col justify-between p-4 shadow-md sm:shadow-new rounded-lg w-full max-w-xs hover:scale-105 transition-transform duration-300">
+      
+      {/* Image */}
+      <div className="h-40 sm:h-48 w-full">
+        <img
+          onClick={() => navigate(`/product/${item.id}`)}
+          src={item.image}
+          alt={item.title}
+          className="w-full h-full object-cover rounded-md cursor-pointer"
+        />
       </div>
-      <div className="py-[8px] flex flex-col gap-[4px]">
+
+      {/* Product Info */}
+      <div className="py-4 flex flex-col gap-2 w-full">
         <h2
-          className="cursor-pointer"
+          className="cursor-pointer text-sm sm:text-base font-semibold text-center truncate"
           onClick={() => navigate(`/product/${item.id}`)}
         >
           {productName(item.title)}
         </h2>
-        <h2 className="text-center">
-          {"₹  "}
-          <span className="text-red-500">{Math.ceil(item.price * 81)}</span>
+
+        <h2 className="text-center text-gray-700 text-sm sm:text-base">
+          ₹ <span className="text-red-500 font-semibold">{Math.ceil(item.price * 81)}</span>
         </h2>
       </div>
-      <div className="">
+
+      {/* Add to Cart Button */}
+      <div className="w-full flex justify-center">
         <button
           onClick={() => addCart(item, navigate)}
-          className="rounded-[4px] border-[2px] hover:bg-black hover:text-white hover:border-0 border-slate-400 px-[20px] py-[5px]"
+          className="w-full sm:w-auto rounded-md border-2 hover:bg-black hover:text-white border-slate-400 px-4 py-2 transition"
         >
           Add To Cart
         </button>
       </div>
 
-      <div className="absolute top-2 left-2 rounded-[50%] w-[30px] h-[30px] flex items-center justify-center text-[13px] font-[400] text-white bg-pink-500">
+      {/* Rating Count Badge */}
+      <div className="absolute top-2 left-2 rounded-full w-8 h-8 flex items-center justify-center text-xs font-bold text-white bg-pink-500">
         {item.rating.count}
       </div>
     </div>

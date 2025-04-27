@@ -27,16 +27,18 @@ const Hero = () => {
           src="/Banner.png"
           alt="Hero"
           className="object-cover w-full h-full"
+          
         />
-
+    
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center text-white">
           <h1 className="text-3xl font-bold">Welcome to Our Store</h1>
+          <p className="absolute flex items-center justify-center pt-28 text-sky-400">✍️ Whether you're an artist, a student, or a dreamer, find everything you need to express your imagination and bring your ideas to life</p>
         </div>
       </div>
 
       {/* Grid for Products */}
-      <section className="grid py-10 grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
         {products?.map((item, id) => (
           <ProductCard item={item} key={id} />
         ))}

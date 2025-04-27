@@ -69,8 +69,8 @@ const routes = createBrowserRouter([
         element: <Shop/>,
       },
       {
-        path: "/shop/:id",
-        element: <ShopDetails />, // ShopDetails should match your import path
+        path: "shop/:id",  // This should match the route in ProductCard
+        element: <ShopDetails />,
       }
       
     ],
